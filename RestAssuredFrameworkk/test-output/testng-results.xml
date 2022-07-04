@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7350" started-at="2022-07-04T16:00:29Z" finished-at="2022-07-04T16:00:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7350" started-at="2022-07-04T16:00:29Z" finished-at="2022-07-04T16:00:37Z">
+      <class name="IBM2.RestAssuredFrameworkk.restassured">
+        <test-method status="PASS" signature="firstPOST(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM2.RestAssuredFrameworkk.restassured@61832929]" name="firstPOST" duration-ms="2914" started-at="2022-07-04T16:00:29Z" data-provider="postData" finished-at="2022-07-04T16:00:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@abc.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[qwerty123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9999988888]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPOST -->
+        <test-method status="PASS" signature="firstPUT(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:IBM2.RestAssuredFrameworkk.restassured@61832929]" name="firstPUT" duration-ms="1550" started-at="2022-07-04T16:00:32Z" data-provider="putData" depends-on-methods="IBM2.RestAssuredFrameworkk.restassured.firstPOST" finished-at="2022-07-04T16:00:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[nav]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@xyz.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[8888899999]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPUT -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:IBM2.RestAssuredFrameworkk.restassured@61832929]" name="login" duration-ms="1538" started-at="2022-07-04T16:00:34Z" data-provider="loginData" depends-on-methods="IBM2.RestAssuredFrameworkk.restassured.firstPOST" finished-at="2022-07-04T16:00:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="firstDELETE(java.lang.String)[pri:0, instance:IBM2.RestAssuredFrameworkk.restassured@61832929]" name="firstDELETE" duration-ms="1324" started-at="2022-07-04T16:00:35Z" data-provider="deleteData" depends-on-methods="IBM2.RestAssuredFrameworkk.restassured.firstPUT" finished-at="2022-07-04T16:00:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nav]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstDELETE -->
+      </class> <!-- IBM2.RestAssuredFrameworkk.restassured -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
